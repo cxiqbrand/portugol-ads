@@ -1,11 +1,11 @@
 // Calculadora de Fatorial:
-// PeÁa ao usu·rio que insira um n˙mero inteiro.
-// Calcule e exiba o fatorial desse n˙mero.
+// Pe√ßa ao usu√°rio que insira um n√∫mero inteiro.
+// Calcule e exiba o fatorial desse n√∫mero.
 
 Algoritmo "calculadora_fatorial"
 
 Var
-// Declarando as vari·veis
+// Declarando as vari√°veis
 v1, v2, v3: inteiro
 
 Inicio
@@ -13,10 +13,10 @@ Inicio
 escreval("Insira um valor para calcular o fatorial equivalente:")
                  leia(v1)
 
-// Se o usu·rio pedir Fatorial de 0, o programa retorna 1.
+// Se o usu√°rio pedir Fatorial de 0, o programa retorna 1.
 
 se (v1=0) entao
-   escreval("Fatorial de 0 È igual a 1.")
+   escreval("Fatorial de 0 √© igual a 1.")
 
 // Valor maior que 0 o programa continua normalmente.
    
@@ -25,15 +25,15 @@ se (v1=0) entao
 v2 <- v1
 v3 <- 1
 
-// Eu atribui o valor 1 para uma terceira vari·vel
+// Eu atribui o valor 1 para uma terceira vari√°vel
 
-// Enquanto 1 for menor que o valor solicitado pelo usu·rio
-// FaÁa o c·lculo de:
-// Valor inicial * (valor inicial-1)
-// Vari·vel com o valor de 1 recebe +1, pois foi realizada uma conta
+// Enquanto 1 for menor que o valor solicitado pelo usu√°rio
+// Fa√ßa o c√°lculo de:
+// Valor inicial * (valor inicial(na nova vari√°vel)-1)
+// Vari√°vel com o valor de 1 recebe +1, pois foi realizada uma conta
 
-// O ciclo se repete atÈ a vari·vel 3 (com valor de 1) atingir um
-// valor superior ao n˙mero imposto pelo usu·rio.
+// O ciclo se repete at√© a vari√°vel 3 (com valor de 1) atingir um
+// valor equivalente ao n√∫mero imposto pelo usu√°rio.
 
 
 
