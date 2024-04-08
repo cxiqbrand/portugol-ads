@@ -1,44 +1,44 @@
 Algoritmo "dia_da_semana"
-// Desenvolva um algoritmo que solicite ao usuário que insira
-// um número de 1 a 7 representando um dia da semana.
-// Com base no número inserido, exiba o nome do dia correspondente
+// Desenvolva um algoritmo que solicite ao usuÃ¡rio que insira
+// um nÃºmero de 1 a 7 representando um dia da semana.
+// Com base no nÃºmero inserido, exiba o nome do dia correspondente
 // (por exemplo, 1 = "Domingo", 2 = "Segunda-feira", etc.).
-// Se o número inserido estiver fora do intervalo de 1 a 7
-// exiba "Número inválido".
+// Se o nÃºmero inserido estiver fora do intervalo de 1 a 7
+// exiba "NÃºmero invÃ¡lido".
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 n1: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-// Coletando os dados do usuário
-escreval("Insira um número de 1 a 7:")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+// Coletando os dados do usuÃ¡rio
+escreval("Insira um nÃºmero de 1 a 7:")
                  leia(n1)
 limpatela
 
-// O programa classifica o número escolhido de acordo com o dia
-// da semana, começando pelo Domingo e indo até Sábado, totalizando
+// O programa classifica o nÃºmero escolhido de acordo com o dia
+// da semana, comeÃ§ando pelo Domingo e indo atÃ© SÃ¡bado, totalizando
 // 7 escolhas.
-// Caso o usuário insira um número fora das opções 1~7, o programa
-// retorna (Número fora das opções propostas).
+// Caso o usuÃ¡rio insira um nÃºmero fora das opÃ§Ãµes 1~7, o programa
+// retorna (NÃºmero fora das opÃ§Ãµes propostas).
 
 escolha (n1)
 caso 1
-escreva ("O número escolhido equivale ao Domingo.")
+escreva ("O nÃºmero escolhido equivale ao Domingo.")
 caso 2
-escreva ("O número escolhido equivale a Segunda-Feira.")
+escreva ("O nÃºmero escolhido equivale Ã  Segunda-Feira.")
 caso 3
-escreva ("O número escolhido equivale a Terça-Feira.")
+escreva ("O nÃºmero escolhido equivale Ã  TerÃ§a-Feira.")
 caso 4
-escreva ("O número escolhido equivale a Quarta-Feira.")
+escreva ("O nÃºmero escolhido equivale Ã  Quarta-Feira.")
 caso 5
-escreva ("O número escolhido equivale a Quinta-Feira.")
+escreva ("O nÃºmero escolhido equivale Ã  Quinta-Feira.")
 caso 6
-escreva ("O número escolhido equivale a Sexta-Feira.")
+escreva ("O nÃºmero escolhido equivale Ã  Sexta-Feira.")
 caso 7
-escreva ("O número escolhido equivale ao Sábado.")
+escreva ("O nÃºmero escolhido equivale ao SÃ¡bado.")
 outrocaso
-escreva ("Número fora das opções propostas.")
+escreva ("NÃºmero fora das opÃ§Ãµes propostas.")
 
 fimescolha
 
