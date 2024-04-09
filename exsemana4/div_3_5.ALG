@@ -25,6 +25,9 @@ limpatela
 // Se não for divisível por 3 e nem por 5 retorna true.
 // Em caso de falso, ambos passam pra próxima condição.
 
+se (n1<0) entao
+   escreva("Por favor, insira um número positivo.")
+                senao
 se (n1%3=0) e (n1%5=0) entao
    escreva("O número é divisível por 3 e por 5.")
               senao
@@ -37,6 +40,7 @@ se (n1%5=0) e (n1%3>0) entao
 se (n1%5>0) e (n1%3>0) entao
    escreva("O número não é divisível por 3 nem por 5.")
 
+fimse
 fimse
 fimse
 fimse
